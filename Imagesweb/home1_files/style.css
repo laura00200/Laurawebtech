@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight:700;
+    color: rgb(112, 38, 94);
+}
+
+span{
+    font-size: .9rem;
+    color: rgb(129, 40, 129);
+}
+
+h6{
+    font-size: 1.1rem;
+    color: black;
+}
+/*NAVIGATION*/
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 8vw;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0,0.15);
+}
+
+nav img{
+    width: 150px;
+    cursor: pointer;
+}
+
+nav .navigation ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+
+}
+
+nav .navigation ul li{
+    list-style:none;
+    margin-left:30px;
+}
+
+nav .navigation ul li a{
+    text-decoration:none;
+    color: fuchsia;
+    font-size:16px;
+    font-weight:500;
+    transition:0.3s ease ;
+}
+
+nav .navigation ul li a:hover{
+    color: blueviolet;
+}
+
+nav{
+    background-color: white;
+}
+
+#home{
+    background-image:url("Imagesweb/pink.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+}
+#home h2{
+    color: black;
+    font-size:2.2rem;
+    letter-spacing:1.px;
+}
+#home p{
+    width: 50%;
+    color: black;
+    font-size: 0.9rem;
+    letter-spacing:1px;
+    line-height: 25px;
+}
+#home .button{
+    margin-top: 30px;
+}
+#home a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding:13px 35px;
+    background-color: white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+#home a.pink{
+    color: white;
+    background-color: rgb(236, 15, 144);
+    transition:0.3s ease;
+}
+
+#home a.pink:hover{
+    color:rgb(248, 25, 196);
+    background-color:white;
+}
+
+#home a.purple{
+    color: white;
+    background-color: rgb(128, 0,128);
+    transition: 0.3s ease;
+}
+
+#home a.purple:hover{
+    color:rgb(128, 0,128);
+    background-color:white;
+}
+
+#features{
+    padding:8vw 5vw 0 8vw;
+    text-align: center;
+}
+
+#features .features1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+    grid-gap: 1rem;
+    margin-top:50px;
+}
+
+#features .f-box{
+    background-color: white;
+    text-align: start;
+}
+
+#features .f-box i{
+    font-size: 2.3rem;
+    color: rgb(23, 4, 62);
+}
+
+#features  .f-box h3{
+    font-size: 1.2rem;
+    font-weight:600;
+    color: rgb(43, 5, 120);
+    padding: 13px 0 7px 0;
+
+}
+
+#features .fbox p{
+    font-size: 1rem;
+    font-weight:400;
+    color: rgb(97, 73, 146);
+    padding: 13px 0 7px 0;   
+}
+
+#Course {
+    padding:8vw 8vw 0vw 8vw;
+    text-align:center;
+    
+
+}
+#Course .course-items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+    grid-gap: 1rem;
+    margin-top:50px;
+}
+#Course .courses>img{
+    width:150px;
+}
+#Course .courses{
+    text-align: start;
+    background-color: azure;
+    height:100%;
+}
+
+#Course .courses .img{
+    
+    background-size: cover;
+    background-position: center;
+
+}
+
+#registration{
+    padding:6vw 8vw 6vw 8vw;
+    background-image:url("Imagesweb/rose.jpg");
+    width:100%;
+    height:100%;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+#registration .reminder{
+    color:black;
+
+}
+
+#registration .reminder .h1{
+    color:white; 
+}
+
+#registration .reminder .time{
+    display:flex;
+    margin-top:40px;
+}
+
+#registration .reminder .time .date{
+    text-align: center;
+    padding: 13px 33px;
+    background:rgba(225, 160, 193, 0.25);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 8px 32px 0 rgba(234, 48, 225, 0.15);
+    border-radius: 5px;
+    margin: 0 5px 10px 5px;
+    border: 2px solid white;
+}
+
+#registration .form{
+    background: white;
+    border-radius:8px;
+    display:flex;
+    flex-direction:column;
+    padding:40px;
+    box-shadow: 0 8px 32px 0 rgba(234, 48, 225, 0.15);
+}
+
+#registration .form input{
+    margin:15px 0;
+    padding:15px 10px;
+    border:1px solid bisque;
+    outline:none;
+}
+
+#registration .form .button{
+    margin-top:20px;
+}
+#registration a.purple{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding:13px 35px;
+    background-color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(128, 0,128);
+    transition: 0.3s ease;
+}
+
+#registration a.purple:hover{
+    color:rgb(128, 0,128);
+    background-color:white;
+}

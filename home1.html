@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--google fonts cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+
+    <script src="https://kit.fontawesome.com/2f200a75c7.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="class.js"></script>
+</head>
+<body>
+<!--HEADER SECTION -->
+    <nav>
+        <img src="Imagesweb\logo1.jpg" alt="">
+        <div class="navigation">
+            <ul>
+                <!--<i id="close-button" class="fa-solid fa-circle-xmark"></i>-->
+                <li><a class="active" href="home1.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="teachers.html">Teachers</a></li>
+                <li><a href="Course.html">Courses</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+                <li><a href="class1.php">Class of students</a></li>
+            </ul>   
+            <img id="menu" src="Imagesweb\menu2b.jpg"alt="">
+        </div>
+    </nav>
+
+<!--HOME -->
+
+<section id="home">
+    <h2>Your future will be build here!</h2>
+    <p>LTech brings together the learning,the growth, the skills and capabilities into a 
+    personalized experience for everyone!
+    </p>
+    <div class="button">
+        <a class="pink" href="Blog.html">Learn more</a>
+        <a class="purple" href="Course.html">See courses</a>
+    </div>
+</section>
+
+<!--FEATURES SECTION-->
+
+<section id="features">
+    <h1>Great features</h1>
+    <p>The possibilities you have are shown under:</p>
+    <div class="features1">
+        <div class="f-box">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h3>Scholarship facility</h3>
+            <p>The university enables scholarships for the best students.</p>
+             <p>Make sure you don't miss this opportunity!</p>
+        </div>
+
+        <div class="f-box">
+            <i class="fa-solid fa-book"></i>
+            <h3>Courses</h3>
+            <p>The university enables courses for each of the best students.They can follow any from the
+                list.</p>
+             <p>Make sure you don't miss this opportunity!</p>
+        </div>
+
+        <div class="f-box">
+            <i class="fa-solid fa-certificate"></i>
+            <h3>Global certifications</h3>
+            <p>The university enables certifications for the hard work done!
+                This certification is the evidence of the entirely cross of the courses! </p>
+             <p>Make sure you don't miss this opportunity!</p>
+        </div>
+    </div>
+</section>
+
+<!--COURSES LIST SECTION-->
+
+<section id="Course">
+    <h1>The most wanted courses</h1>
+    <p>Take a look to the courses,which one catched your eye?</p>
+    <div class="course-items">
+        <div class="courses">
+        <img src="Imagesweb/glass.jpg" alt="">
+        <div class="details">
+            <span>Last update was made on 30.10.2022</span>
+            <h6>Python Beginners Course</h6>
+                <div class="computer"></div>
+                <i class="fa-solid fa-computer"></i>
+            <span>(50 people)</span>
+        </div>
+    </div>
+ </div>
+
+ <div class="course-items">
+    <div class="courses">
+    <img src="Imagesweb/computer.jpg" alt="">
+    <div class="details">
+        <span>Last update was made on 30.10.2022</span>
+        <h6>Java Beginners Course</h6>
+            <div class="computer"></div>
+            <i class="fa-solid fa-computer"></i>
+        <span>(20 people)</span>
+    </div>
+</div>
+</div>
+
+<div class="course-items">
+    <div class="courses">
+    <img src="Imagesweb/code.jpg" alt="">
+    <div class="details">
+        <span>Last update was made on 30.10.2022</span>
+        <h6>Cyber Security Course</h6>
+            <div class="computer"></div>
+            <i class="fa-solid fa-computer"></i>
+        <span>(100 people)</span>
+    </div>
+</div>
+</div>
+
+<div class="course-items">
+    <div class="courses">
+    <img src="Imagesweb/computer4.jpg" alt="">
+    <div class="details">
+        <span>Last update was made on 30.10.2022</span>
+        <h6>Web Development Course</h6>
+            <div class="computer"></div>
+            <i class="fa-solid fa-computer"></i>
+        <span>(40 people)</span>
+    </div>
+</div>
+</div>
+
+</section>
+
+<!--REGISTRATION SECTION-->
+
+<section id="registration">
+    <div class="reg-container">
+        <div class="reminder">
+            <h1>Register!</h1>
+            <p>Our list of courses are waiting! Register now to study!</p>
+        </div>   
+        <div class="time">
+                <h3 id="time-left"> </h3>
+                <script src="app.js"></script>
+                <!--<div class="date">
+                    <h4 id="days">20<br> days</h4> 
+                </div>
+
+                <div class="date">
+                    <h4 id="hours">18<br> hours</h4>
+                </div>
+
+                <div class="date">
+                    <h4 id="minutes">30<br> minutes</h4>
+                </div>
+
+                <div class="date">
+                    <h4 id="seconds">10<br> seconds</h4>
+                </div>-->
+
+        </div>
+    </div>
+
+    <div class="form">
+        <h3>CREATE ACCOUNT!</h3>
+        <form action="index.php" method="post">
+        <input type="text" placeholder="Username:" id="" name="name">
+        <input type="text" placeholder="E-mail adress:"  id="" name="email">
+        <input type="text" placeholder="Phone number:"  id="" name="phone">
+        <div class="button">
+            <input type="submit" value="Submit">
+        </div>
+        </form>
+    </div>
+    <div id="welcome-message">
+        <script src="welcome.js"> </script>
+    </div>
+    
+</section>
+
+
+
+
+<!--SPECIALISTS SECTION-->
+
+<section id="Teachers">
+    <h1>Teachers for the courses</h1>
+    <p>The people who will set the stage for the success!</p>
+    <div class="teachers">
+        <div class="profile">
+            <img src="Imagesweb/teach1.jpg" alt="">
+            <h6>Andrew James</h6>
+            <p>Python and Web development teacher</p>
+            <div class="links-to-socials">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+
+        <div class="profile">
+            <img src="Imagesweb/teach2.jpg" alt="">
+            <h6>Mary Katz</h6>
+            <p>Java teacher</p>
+            <div class="links-to-socials">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+
+        <div class="profile">
+            <img src="Imagesweb/teach3.jpg" alt="">
+            <h6>Ariana Jones</h6>
+            <p>Cyber Security teacher</p>
+           <div class="links-to-socials">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--FOOTER SECTION-->
+
+<footer>
+<div class="footer-column">
+    <h3>Top products</h3>
+    <li>Manage reputation</li>
+    <li>Power tools</li>
+    <li>Managed website</li>
+    <li>Marketing service</li>
+    
+</div>
+
+<div class="footer-column">
+    <h3>Quick Links</h3>
+    <li>Jobs</li>
+    <li>Brand assets</li>
+    <li>Investor relations</li>
+    <li>Terms of service</li>
+    
+</div>
+
+<div class="footer-column">
+    <h3>Features</h3>
+    <li>Manage reputation</li>
+    <li>Power Tools</li>
+    <li>Managed website</li>
+    <li>Marketing service</li>
+
+</div>
+
+<div class="footer-column">
+    <h3>Resources</h3>
+    <li>Guides</li>
+    <li>Research</li>
+    <li>Experts</li>
+    <li>Marketing service</li>
+
+
+</div>
+<div id="cookies-banner">
+    <p>We use cookies to enhance your experience on our site. By continuing to use our site, you consent to our use of cookies.</p>
+    <a href="/privacy-policy">Learn more</a>
+    <button onclick="acceptCookies()">Accept</button>
+</div>
+  
+  
+
+
+<!--<div class="links">
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-linkedin"></i>
+</div>-->
+
+</div>
+</footer>
+<script> 
+
+$('#close-button').click(function(){
+    $('nav .navigation ul').removeClass('active')
+});
+$('#menu').click(function(){
+    $('nav .navigation ul').addClass('active')
+});
+
+
+</script>
+</body>
+
+
+
+
+
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    
+  
+</html>

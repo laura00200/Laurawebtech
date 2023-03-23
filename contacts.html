@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--google fonts cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+
+    <script src="https://kit.fontawesome.com/2f200a75c7.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  </head>
+<body>
+<!--header sections starting-->
+    <nav>
+        <img src="Imagesweb\Logo.jpg" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="close-button" class="fa-solid fa-circle-xmark"></i>
+                <li><a href="home1.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="teachers.html"href="teachers.html">Teachers</a></li>
+                <li><a href="course.html"href="blog.html">Courses</a></li>
+                <li><a class="active"href="blog.html"href="blog.html">Blog</a></li>
+                <li><a href="contacts.html"href="blog.html">Contacts</a></li>
+            </ul>   
+            <img id="menu" src="C:\Users\diaco\Documents\properties\Laurawebtech\Imagesweb\menu2b.jpg"alt="">
+        </div>
+    </nav>
+
+<!--Blog -->
+<section id="about-home">
+    <h1>Contacts</h1>
+</section>
+<section id="contacts-page">
+    <h1>Contact Us</h1>
+    <div class="contact-form">
+        <form action="contacts.php" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="text" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="text" class="form-control" id="phone" name="phone">
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="department">Department:</label>
+                <select class="form-control" id="department" name="department">
+                    <option value="teacher">Teacher</option>
+                    <option value="student">Student</option>
+                    <option value="feedback">Feedback</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="subscribe" name="subscribe">
+                    <label class="form-check-label" for="subscribe">
+                        Subscribe to our newsletter
+                    </label>
+                </div>
+            </div>
+            <div class="form-group text-center">
+                <input type="submit" class="btn btn-primary" value="Submit">
+            </div>
+        </form>
+    </div>
+    <div class="contact-info">
+        <h2>Contact Information</h2>
+        <div class="info-block">
+            <h3>Address</h3>
+            <p>Cugir,10</p>
+            <p>Timisoara, Romania</p>
+        </div>
+        <div class="info-block">
+            <h3>Phone Number</h3>
+            <p>0799602456</p>
+        </div>
+        <div class="info-block">
+            <h3>Email</h3>
+            <p>info@LTech.com</p>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1409.8529883737373!2d21.243989!3d45.73533!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfa1f82f1a3c3f3f9!2sCugir%2010%2C%20Timi%C8%99oara!5e0!3m2!1sen!2sro!4v1611790188472!5m2!1sen!2sro" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+          
+        <div class="info-block">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>    
+    </div>
+
+    <footer>
+        <div class="footer-column">
+            <h3>Top products</h3>
+            <li>Manage reputation</li>
+            <li>Power tools</li>
+            <li>Managed website</li>
+            <li>Marketing service</li>
+            
+        </div>
+        
+        <div class="footer-column">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand assets</li>
+            <li>Investor relations</li>
+            <li>Terms of service</li>
+            
+        </div>
+        
+        <div class="footer-column">
+            <h3>Features</h3>
+            <li>Manage reputation</li>
+            <li>Power Tools</li>
+            <li>Managed website</li>
+            <li>Marketing service</li>
+        
+        </div>
+        
+        <div class="footer-column">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing service</li>
+        
+        
+        </div>
+        
+        
+        <!--<div class="links">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        
+        </div>-->
+        </footer>
+        <script> 
+        
+        $('#close-button').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+        $('#menu').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        
+        
+        </script>
+        </body>
+        
+        

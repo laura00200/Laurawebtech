@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--google fonts cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+
+    <script src="https://kit.fontawesome.com/2f200a75c7.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  </head>
+<body>
+<!--header sections starting-->
+    <nav>
+        <img src="Imagesweb\Logo1.jpg" alt="">
+        <div class="navigation">
+            <ul>
+                <!--<i id="close-button" class="fa-solid fa-circle-xmark"></i>-->
+                <li><a href="home1.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="teachers.html"href="teachers.html">Teachers</a></li>
+                <li><a class="active" href="course.html"href="blog.html">Courses</a></li>
+                <li><a href="blog.html"href="blog.html">Blog</a></li>
+                <li><a href="contacts.html"href="blog.html">Contacts</a></li>
+            </ul>   
+            <img id="menu" src="C:\Users\diaco\Documents\properties\Laurawebtech\Imagesweb\menu2b.jpg"alt="">
+        </div>
+    </nav>
+
+<!--Courses title-->
+<section id="about-home">
+    <h1>Courses</h1>  
+</section>
+<!--Courses available by the e-learning-->
+<section id="Course">
+    <h1>The most wanted courses</h1>
+    <p>Take a look to the courses,which one catched your eye?</p>
+    <div class="course-items">
+        <div onclick="window.location.href='course-details.html';" class="courses">
+        <img src="Imagesweb/glass.jpg" alt="">
+        <div class="details">
+            <span>Last update was made on 30.10.2022</span>
+            <h6>Python Beginners Course</h6>
+                <div class="computer"></div>
+                <i class="fa-solid fa-computer"></i>
+            <span>(50 people)</span>
+        </div>
+    </div>
+ </div>
+
+ <div class="course-items">
+    <div onclick="window.location.href='course_details1.html';" class="courses">
+    <img src="Imagesweb/computer.jpg" alt="">
+    <div class="details">
+        <span>Last update was made on 30.10.2022</span>
+        <h6>Java Beginners Course</h6>
+            <div class="computer"></div>
+            <i class="fa-solid fa-computer"></i>
+        <span>(20 people)</span>
+    </div>
+</div>
+</div>
+
+
+<div class="course-items">
+    <div onclick="window.location.href='courses_details2.html';" class="courses">
+    <img src="Imagesweb/code.jpg" alt="">
+    <div class="details">
+        <span>Last update was made on 30.10.2022</span>
+        <h6>Cyber Security Course</h6>
+            <div class="computer"></div>
+            <i class="fa-solid fa-computer"></i>
+        <span>(100 people)</span>
+    </div>
+</div>
+</div>
+
+
+<div class="course-items">
+    <div onclick="window.location.href='courses_detail3.html';" class="courses">
+    <img src="Imagesweb/computer4.jpg" alt="">
+    <div class="details">
+        <span>Last update was made on 30.10.2022</span>
+        <h6>Web Development Course</h6>
+            <div class="computer"></div>
+            <i class="fa-solid fa-computer"></i>
+        <span>(40 people)</span>
+    </div>
+</div>
+</div>
+
+
+<div class="enroll">
+<h3>What does this course include?</h3>
+<p><i class="fa-solid fa-video"></i>over 20 hours of lectures</p>
+<p><i class="far fa-newspaper"></i>Articles</p>
+<p><i class="fa-solid fa-download"></i>Resources to download</p>
+<p><i class="fa-solid fa-infinity"></i>Non-limited access</p>
+<p><i class="fa-solid fa-pen"></i>Assignments</p>
+<p><i class="fa-solid fa-certificate"></i>Certification of completion</p>
+<div class="enroll-button">
+    <a class="beige" href="home1.html">Enroll Course</a>
+</div>
+
+</div>
+</section>
+
+<!--Footer-->
+<footer>
+<div class="footer-column">
+    <h3>Top products</h3>
+    <li>Manage reputation</li>
+    <li>Power tools</li>
+    <li>Managed website</li>
+    <li>Marketing service</li>
+    
+</div>
+
+<div class="footer-column">
+    <h3>Quick Links</h3>
+    <li>Jobs</li>
+    <li>Brand assets</li>
+    <li>Investor relations</li>
+    <li>Terms of service</li>
+    
+</div>
+
+<div class="footer-column">
+    <h3>Features</h3>
+    <li>Manage reputation</li>
+    <li>Power Tools</li>
+    <li>Managed website</li>
+    <li>Marketing service</li>
+
+</div>
+
+<div class="footer-column">
+    <h3>Resources</h3>
+    <li>Guides</li>
+    <li>Research</li>
+    <li>Experts</li>
+    <li>Marketing service</li>
+
+
+</div>
+
+
+<!--<div class="links">
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-linkedin"></i>
+</div>
+
+</div>-->
+</footer>
+<script> 
+
+$('#close-button').click(function(){
+    $('nav .navigation ul').removeClass('active')
+});
+$('#menu').click(function(){
+    $('nav .navigation ul').addClass('active')
+});
+
+
+</script>
+</body>
+
+
+
+  /*<!--header section ending-->
+
+
+
+    <!--jquery cdn link-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <!--custom js file link-->
+    <script src="js/script.js"></script>*/
+  
+</html>

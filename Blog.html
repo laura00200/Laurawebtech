@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--google fonts cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+
+    <script src="https://kit.fontawesome.com/2f200a75c7.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  </head>
+<body>
+<!--header sections starting-->
+    <nav>
+        <img src="Imagesweb\Logo.jpg" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="close-button" class="fa-solid fa-circle-xmark"></i>
+                <li><a href="home1.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="teachers.html"href="teachers.html">Teachers</a></li>
+                <li><a href="course.html"href="blog.html">Courses</a></li>
+                <li><a class="active"href="blog.html"href="blog.html">Blog</a></li>
+                <li><a href="contacts.html"href="blog.html">Contacts</a></li>
+            </ul>   
+            <img id="menu" src="C:\Users\diaco\Documents\properties\Laurawebtech\Imagesweb\menu2b.jpg"alt="">
+        </div>
+    </nav>
+
+<!--Blog -->
+<section id="about-home">
+    <h1>Blog</h1>
+    
+</section>
+<section id="blog-containing">
+    <div class="blogs">
+        <div class="post">
+            <img src="Imagesweb/blog1.jpg" alt="">
+            <h3>
+                Join our Python course and gain the skills you need!
+            </h3>
+            <p>
+                Start building your own software projects, analyze data, and solve real-world problems.
+                With a friendly and experienced instructor, hands-on exercises, 
+                and a supportive community of learners, you'll be amazed at what you can accomplish in just a few short weeks!
+            </p>
+            <a class="brown" href="post.html">Read more</a>
+        </div>
+
+        <div class="post">
+            <img src="Imagesweb/blog2.jpg" alt="">
+            <h3>Join our web development course,succeed in the exciting world of technology!
+            </h3>
+            <p>Our web development course will give you the knowledge and skills you need to build your
+               own websites and applications from scratch.Stand out in the job market! 
+            </p>
+            <a class="brown" href="post1.html">Read more</a>
+        </div>
+
+        <div class="post">
+            <img src="Imagesweb/blog3.jpg" alt="">
+            <h3>Join our Java programming course today and start your journey! 
+            </h3>
+            <p>
+                From beginner to expert, we'll guide you through the fundamentals of Java and 
+                help you build the skills you need to succeed in a variety of industries.
+            </p>
+            <a class="brown" href="post3.html">Read more</a>
+        </div>
+
+        <div class="post">
+            <img src="Imagesweb/blog4.jpg" alt="">
+            <h3>Join our Cyber Security course and become an expert in protecting against online threats!
+            </h3>
+            <p>Cyber security is more important than ever,and our course will give you the knowledge
+                and skills you need to keep individuals and organizations safe from cyber attacks.
+            </p>
+            <a class="brown" href="post4.html">Read more</a>
+        </div>
+    </div>
+
+    <div class="categories">
+        <h2>Categories:</h2>
+        <hr>
+        <a  href="#">Python programming</a>
+        <hr>
+        <a href="#">Web Development</a>
+        <hr>
+        <a href="#">Java programming</a>
+        <hr>
+        <a href="#">Cyber Security </a>
+    </div>
+    </section>
+<!--Footer-->
+<footer>
+    <div class="footer-column">
+        <h3>Top products</h3>
+        <li>Manage reputation</li>
+        <li>Power tools</li>
+        <li>Managed website</li>
+        <li>Marketing service</li>
+        
+    </div>
+    
+    <div class="footer-column">
+        <h3>Quick Links</h3>
+        <li>Jobs</li>
+        <li>Brand assets</li>
+        <li>Investor relations</li>
+        <li>Terms of service</li>
+        
+    </div>
+    
+    <div class="footer-column">
+        <h3>Features</h3>
+        <li>Manage reputation</li>
+        <li>Power Tools</li>
+        <li>Managed website</li>
+        <li>Marketing service</li>
+    
+    </div>
+    
+    <div class="footer-column">
+        <h3>Resources</h3>
+        <li>Guides</li>
+        <li>Research</li>
+        <li>Experts</li>
+        <li>Marketing service</li>
+    
+    
+    </div>
+    
+    
+    
+    <!--<div class="links">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>-->
+    
+    </div>
+    </footer>
+<script> 
+
+$('#close-button').click(function(){
+    $('nav .navigation ul').removeClass('active')
+});
+$('#menu').click(function(){
+    $('nav .navigation ul').addClass('active')
+});
+
+
+</script>
+</body>
+
+
+
+  
+
+
+
+    <!--jquery cdn link-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <!--custom js file link-->
+    <script src="js/script.js"></script>
+  
+</html>
