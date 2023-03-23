@@ -26,7 +26,7 @@ For the Ui design I used HTML and CSS.HTML was used for structuring the content 
      - [x] Create an account
      - [x] Get informed of courses
      - [x] See teachers
-     ![Screenshot of my project](/screenshots/home1.png)
+     ![Screenshot of my project](Readme/home.png)
     
 ## License
 
