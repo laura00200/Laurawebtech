@@ -23,9 +23,20 @@ https://code.visualstudio.com/download
       
 * Launch Visual Studio Code: After installation, launch the editor. You should see a welcome screen with options to create a new file, open a folder, or install extensions.
 * Clone the Git repository.
-* Press on New Terminal
-* 
-  Once i done that I started step by step to create files that were a necessity for my project.
+* Open the command palette with the key combination of .
+
+  Ctrl + Shift + P
+
+
+
+* At the command palette prompt, enter gitcl, select the Git: Clone command, then select Clone from GitHub and press Enter.
+* When prompted for the Repository URL, select clone from GitHub, then press Enter.
+* If you are asked to sign into GitHub, complete the sign-in process.
+* Enter the link of repository
+* Select (or create) the local directory into which you want to clone the project.
+* When you receive the notification asking if you want to open the cloned repository, select Open.
+
+
 
 2) Github
 
@@ -52,7 +63,7 @@ For the Ui design I used HTML and CSS.HTML was used for structuring the content 
      - [x] Create an account
      - [x] Get informed of courses
      - [x] See teachers
-    ![alt text](https://github.com/[laura00200]/[Laurawebtech]/blob/[master]/Home.png?raw=true)
+   
 2.   About Page
      - In the About page there is a general description of the L-tech E-learning and what it offers:
      - [x] Certifications
