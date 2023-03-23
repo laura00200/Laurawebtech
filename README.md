@@ -26,8 +26,15 @@ For the Ui design I used HTML and CSS.HTML was used for structuring the content 
      - [x] Create an account
      - [x] Get informed of courses
      - [x] See teachers
-     <img src="/path/to/home.jpg" alt="Alt text" title="home">
+    ![alt text](https://github.com/[laura00200]/[Laurawebtech]/blob/[master]/home.jpg?raw=true)
+1.   About Page
+     - In the About page there is a general description of the L-tech E-learning  
+     - [x] Create an account
+     - [x] Get informed of courses
+     - [x] See teachers
     
+
 ## License
+
 
 [MIT](https://choosealicense.com/licenses/mit/)
