@@ -20,13 +20,14 @@ Used for managing the project
 ## UI DESIGN
 For the Ui design I used HTML and CSS.HTML was used for structuring the content of the webpage and CSS for the style and the visual presentation.I wanted to mostly create an easy to use interface in order to target the audience, which are the students.
 
-1)Home page
 
 1.   Home Page
      - The Home Page represents the place where the student has the opportunity to see the register form where he/she should create an account.There are some details presented of what the e-learning has to offer.
-     - [x] #739
-     - [ ] https://github.com/octo-org/octo-repo/issues/740
-     - [ ] Add delight to the experience when all tasks are complete :tada:
+     - [x] Create an account
+     - [x] Get informed of courses
+     - [x] See teachers
+     ![Screenshot of my project](/screenshots/home1.png)
+    
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
