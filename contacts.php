@@ -6,13 +6,14 @@
         $subscribe = false;
     }
     
-    if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message']) && isset($_POST['department'])){
+    if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['message']) && isset($_POST['department']))
+    {
         $name = $_POST['name'];
         $email = $_POST['email'];
         $phone = $_POST['phone'];
         $message1 = $_POST['message'];
         $department = $_POST['department'];
-        
+    }    
         /* // Send an email
         $to = "admin@yourwebsite.com"; // change this to your email
         $subject = "New contact form submission";

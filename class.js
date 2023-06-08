@@ -70,7 +70,7 @@ myForm.addEventListener("submit", function(event) {
   event.preventDefault();
   let formData = new FormData(myForm);
   let xhr = new XMLHttpRequest();
-  xhr.open("POST", "contancts.php", true);
+  xhr.open("POST", "index.php", true);
   xhr.onload = function() {
     if (xhr.status === 200) {
       console.log(xhr.responseText);

@@ -1,0 +1,30 @@
+{
+  "name": "laurawebtech",
+  "version": "1.0.0",
+  "description": "- [Introduction](#introduction)\r - [Installation](#installation)\r - [Setup](#setup)\r - [Technology used](#technology-used)\r - [UI Design](#ui-design)\r - [License](#license)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laura00200/Laurawebtech.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laura00200/Laurawebtech/issues"
+  },
+  "homepage": "https://github.com/laura00200/Laurawebtech#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1",
+    "nodemon": "^2.0.22"
+  }
+}
