@@ -35,12 +35,15 @@ include('includes/navbar.php');
                         <input type="password" name="confirmpassword" class="form-control"
                             placeholder="Confirm password:">
                     </div>
+                    <input type="hidden" name="usertype" value="admin">
                 </div>
 
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary">Save changes</button>
+                    <button type="submit" name="registerbtn" class="btn btn-primary">Save changes</button>
                 </div>
+
+
             </form>
         </div>
     </div>
@@ -69,6 +72,7 @@ include('includes/navbar.php');
                             <th>Username</th>
                             <th>Email</th>
                             <th>Password</th>
+                            <th>Usertype</th>
                             <th>Edit</th>
                             <th>Delete</th>
                             
@@ -89,6 +93,7 @@ include('includes/navbar.php');
                             <td><?php echo $row['username'];?></td>
                             <td><?php echo $row['email'];?></td>
                             <td><?php echo $row['pass'];?></td>
+                            <td><?php echo $row['usertype'];?></td>
                             <td>
                                 <form action="register_edit.php" method="post">
                                     <input type="hidden" name="edit_id" value="<?php echo $row['id'];?>">

@@ -18,7 +18,7 @@ include('includes/navbar.php');
             {
             $id = $_POST['edit_id'];
 
-            $query = "SELECT * FROM register1 WHERE id='$id'";
+            $query = "SELECT * FROM attendance WHERE id='$id'";
             $query_run = mysqli_query($connection,$query);
             foreach($query_run as $row){
             ?>
@@ -35,19 +35,15 @@ include('includes/navbar.php');
             </div>
 
             <div class="form-group">
-                <label>Password:</label>
-                <input type="password" name="edit_password" value="<?php echo $row['pass']?>" class="form-control" placeholder="Enter password:">
-            </div>
-            <div class="form-group">
-                <label>Usertype:</label>
-                <select name="update_usertype" class="form-control">
-                    <option value="admin">Admin</option>
-                    <option value="user">User</option>
+                <label>Presence:</label>
+                <select name="presence" class="form-control">
+                    <option value="present">present</option>
+                    <option value="absent">absent</option>
                 </select>
             </div>
 
             <!--the 2 buttons for canceling anf updating-->
-            <a href="register.php"class="btn btn-danger">CANCEL</a>
+            <a href="student.php"class="btn btn-danger">CANCEL</a>
             <button type="submit" name="updatebtn" class="btn btn-primary">UPDATE</button>
 
             </form>
