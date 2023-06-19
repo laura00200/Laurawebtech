@@ -93,21 +93,6 @@ if(isset($_POST['logout_btn']))
 
 
 
-if (isset($_POST['attendancebtn'])) {
-    $username = $_POST['username'];
-    $email = $_POST['email'];
-
-    $query = "INSERT INTO attendance (username, email) VALUES (?, ?)";
-    $stmt = mysqli_prepare($connection, $query);
-    mysqli_stmt_bind_param($stmt,"ss", $username, $email);
-
-    if (mysqli_stmt_execute($stmt)) {
-        echo "Attendancesuccessful!";
-       
-    } else {
-        echo "Error in attendance: " . mysqli_error($connection);
-    }
-}
 
 mysqli_close($connection);
 ?>

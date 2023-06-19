@@ -195,57 +195,46 @@ nav {
 }
 
 /*COURSE PART*/
-#Course {
-    padding: 8vw 8vw 8vw 8vw;
-    background-color: beige;
-    text-align: center;
-
-
-}
-
-#Course .course-items {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 1rem;
-    margin-top: 50px;
-}
-
-#Course .courses>img {
-    width: 150px;
-}
-
-#Course .courses {
-    text-align: start;
-    background-color: beige;
-    height: 100%;
-}
-
-#Course .courses .img {
-
-    background-size: cover;
-    background-position: center;
-
-}
-
-/*REGISTRATION PART*/
-
-#registration {
-    padding: 6vw 8vw 6vw 8vw;
-    background-image: url("Imagesweb/beige2.jpg");
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
+.course-row {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: start;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-#registration .reminder {
-    padding: 20px;
-    color: black;
+.course-items .courses {
+    width: 250px;
+    text-align: center;
+    position: relative;
 }
+
+.course-items .courses img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.course-items .courses .details {
+    margin-top: 10px;
+    position: relative;
+}
+
+.course-items .courses .details h6 {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.course-items .courses .details span {
+    display: block;
+    font-size: 14px;
+    color: gray;
+}
+
 
 /*#registration .reminder .h1{
     color:red;
@@ -698,21 +687,40 @@ footer p {
     border-radius: 3px;
 }
 
-#blog-containing .categories {
+#blog-containing.categories {
+    position: absolute;
+    top: 0;
+    right: 0;
     width: 30%;
-
+    padding: 20px;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
 }
 
-#blog-containing .categories h2 {
-    padding-bottom: 5px;
+#blog-containing.categories h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
 }
 
-#blog-containing .categories a {
+#blog-containing.categories hr {
+    margin: 10px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+#blog-containing.categories a {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
     text-decoration: none;
-    color: #A0816C;
-    font-weight: 400;
-    line-height: 50px;
+    font-weight: bold;
 }
+
+#blog-containing.categories a:hover {
+    color: #555;
+}
+
 
 
 #menu-button {
